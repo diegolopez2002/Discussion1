@@ -4,7 +4,7 @@ class Rectangle:
 
     def __init__(self, width, height):
 
-        Rectangle.num_rectangle += 1  #global num_rectangle
+        num_rectangle += 1  
         self.width = width
         self.height = height
   
